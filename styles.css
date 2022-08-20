@@ -6,6 +6,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
     }
 
 header, 
@@ -20,6 +25,8 @@ h1 {
     line-height: 52px;
     text-transform: uppercase;
     color: #2F2E41;
+    text-align: center;
+    margin-bottom: 70px;
 }
 
 .avatar {
@@ -27,6 +34,13 @@ h1 {
     width: 50px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.card-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
 }
 
 .card-title {
@@ -49,7 +63,12 @@ h1 {
     background: #FFFFFF;
     border: 2px solid #E7E7E7;
     border-radius: 5px;
-    width: 370px;
+    width: 330px;
+    padding: 46px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    
 }
 
  a {
@@ -59,4 +78,46 @@ h1 {
     letter-spacing: -0.02em;
     text-transform: capitalize;
     color: #FFFFFF;
+    text-decoration: none;
  }
+
+ .card-img {
+    margin: 40px 0 36px;
+    height: 200px;
+ }
+
+ .container {
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+ }
+
+ .header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+ }
+
+ ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+ }
+
+li a {
+    display: flex;
+    align-items: center;
+}
+
+li a img {
+    margin-right: 10px;
+}
+
+section {
+    padding: 100px 0;
+}
