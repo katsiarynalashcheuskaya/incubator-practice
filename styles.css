@@ -121,3 +121,19 @@ li a img {
 section {
     padding: 100px 0;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+    section {
+        padding: 46px 0 50px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 28px;
+    }
+}
